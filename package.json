@@ -1,0 +1,10 @@
+{
+  "name": "omp-session-board",
+  "version": "0.1.0",
+  "description": "opencode-style session switching for omp, backed by tmux (Ctrl+X L / Ctrl+X N / /board)",
+  "type": "module",
+  "files": ["index.ts", "README.md"],
+  "omp": {
+    "extensions": ["./index.ts"]
+  }
+}
